@@ -8,10 +8,11 @@ const Navigation = () => {
     <Fragment>
       <div className="navigation">
         <Link className="logo-container" to="/">
-          <img classname="logo" style={{ width: "10vh" }} src={logo} alt="logo" />
+          <img className="logo" style={{ width: "10vh" }} src={logo} alt="logo" />
         </Link >
         <div className="nav-links-container">
           <Link className="nav-link" to="/shop">SHOP</Link>
+          <Link className="nav-link" to="/sign-in">SIGN IN</Link>
         </div>
       </div>
       <Outlet />
