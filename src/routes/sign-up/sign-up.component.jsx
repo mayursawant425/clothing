@@ -41,9 +41,10 @@ const SignUp = () => {
     catch (error) {
       if (error.code === "auth/email-already-in-use") {
         alert("Email already in use");
-        return;
       }
-      alert("Something went wrong while creating user.");
+      else {
+        alert("Something went wrong while creating user.");
+      }
     }
 
   }
